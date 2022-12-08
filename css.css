@@ -1,0 +1,25 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.butn
+  {
+    padding-top: 2em;
+    border: none;
+    background-color:grey;
+    scroll-behavior: smooth;
+    transition: transform .3s;
+    border-radius: 1cm;
+
+  }
+  .butn:hover
+  {
+    
+    text-decoration: underline;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px 15px #d9d9d9;
+
+  }

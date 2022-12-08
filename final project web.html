@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <title>Final assessment </title>
+    <head>
+        <link rel="stylesheet" href="css.css">
+     </head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/4/w3.css">
+<html>
+
+<style>
+.w3-half {height:280px;padding-top:16px}
+</style>
+
+
+<div class="w3-row">
+  <div class="w3-half w3-center" style="background:#d9ecd0">
+  <p><img src="me.jpg" alt="me" class="center" height="150px">
+</p>
+<center><b>Aditya Jasuja</b></center>
+<center>Web developer</center>
+
+  <p>
+    <a href="C:\Users\HP\Desktop\Web final assessment\Aditya jasuja Resume.pdf" download="C:\Users\HP\Desktop\Web final assessment\Aditya jasuja Resume.pdf"> <button class="btn"> Download pdf</button>  </a> 
+    <a href="#signup"><button class="btn">Contact Me</button></a>
+    </p> 
+  </div>
+  <div class="w3-half w3-center w3-xlarge"  style="background:#e4d1d1">
+  <p><span class="w3-tag w3-xxlarge">About me <br>
+I am aditya Jasuja. Currentl studying in seneca college, ontario </span></p>
+
+
+ </div>
+
+<div class="w3-row">
+  <div class="w3-half w3-center" style="background:#b9b0b0">
+    <p class="w3-xlarge w3-wide"> EDUCATION <br>
+        SENECA COLLEGE, Toronto, Ontario <br>
+        PRESENT Diploma in Computer Programming<br> 
+        S.R. century public SCHOOL (Bahadurgarh, Haryana, India) <br>
+        COMPLETED (2019-2021) High School from Science Stream<br></p>
+      </div>
+    </div>
+ 
+
+
+
+
+
+
+         
+            <form id = "signup" method="post"   action="https://httpbin.org/post">
+
+                  <div><label>Name<i>*</i></label> <input type="text" name="First_Name" id = "First_Name"  required></div> 
+
+                  <div> <label> Email<i>*</i></label> <input type="text" name="Email" required>            </div>
+                  <div><label>Street Address<i>*</i></label> <input type="text" name="Address"  required> </div>
+                  <div><label>City <i>*</i></label> <input type="text" name="city" id = "Last_Name" required></div> 
+
+                 <div> <label>Province<i>*</i></label> 
+
+                          <select name = "Province">
+                          <option value = "AL">Alberta</option>
+                          <option value = "ON">Ontario</option>
+                          <option value = "BC">British Columbia</option>
+                          <option value = "QC"> Quebec</option>
+                          <option value = "NS"> Nova Scotia</option>
+                          <option value = "NB">New Brunswick</option>
+                          <option value = "MB">Manitoba</option>
+                          <option value = "SK"> Saskatchewan</option>
+                          <option value = "NL">Newfoundland And Labrador</option>
+                          <option value= "PE">Prince Edward Island</option>
+                          <option value= "PE">Nunavut</option>
+                                  </select> 
+                  </div>
+                  <div><label>Postal Code <i>*</i></label> <input type="text" name="city" id = "Last_Name" required></div> 
+                          
+                  <div> <label>Reason for contact<i>*</i></label> <input type="text" name="Country" list="countries" required> 
+
+                          <datalist id="countries">
+                          <option value = "Job offer"/>
+                          <option value = "School"/>
+                          <option value = "Other"/>
+                          </datalist>
+                  </div>
+          </div> 
+
+          
+              
+                 
+                 
+                
+                  <div id = "Job_Duty"> <label>Message</label> <textarea name = "Job_Duty"></textarea> </div>
+         
+
+  <div id= "Buttons">
+          <input type="reset">
+
+          <input type="submit" value="submit"  onclick="return FormCheck()"/>
+  </div>
+      
+      </form>
+  
+  <span id ="errors">
+  </span>
+
+</form>
+    </body>
+</html>
